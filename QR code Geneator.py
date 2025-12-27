@@ -2,7 +2,7 @@ import qrcode
 from PIL import Image
 
 # Data to be encoded in the QR code
-data = "8197308109@axl"
+data =
 # Generate the QR code
 qr = qrcode.QRCode(
     version=1,
@@ -18,5 +18,6 @@ img = qr.make_image(fill_color="black", back_color="white")
 
 # Save the image
 img.save("G Pay.png")
+
 
 print("QR code generated successfully")
